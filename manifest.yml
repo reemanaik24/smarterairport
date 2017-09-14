@@ -1,0 +1,9 @@
+applications:
+- path: target/Smart-Airport.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SmartAirport
+  host: SmartAirport
+  disk_quota: 1024M
+  -services: -Weather Company Data-s6
